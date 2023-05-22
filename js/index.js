@@ -85,3 +85,5 @@ window.addEventListener("scroll", e => {
       gotoTop.classList.remove("show-top");
     }
   });
+
+  app.use(express.static(__dirname + "/public/"));
